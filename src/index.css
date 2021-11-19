@@ -5,9 +5,119 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.travel--journal{
+  width: 550px;
+  height: fit-content;
+  margin: auto;
+  background-color: rgb(239, 240, 234);   
+}
+
+.flexbox{
+  display: flex;
+  flex-direction: row;
+}
+
+/* header */
+
+.header{
+  height: 55px;
+  align-items: center;
+  background-color: #F55A5A;
+  margin-bottom: 50px;
+}
+
+.header > img{
+  width: 24px;
+  height: 24px;
+  margin-left: 35%;
+}
+
+.header--text{
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* section */
+
+section{
+  display: flex;
+  flex-direction: column;
+  display: 2px solid pink;
+}
+
+.info--box{  
+  padding: 0 36px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.container{
+  width: 471px;  
+  height: 168px;
+  justify-content: space-between;
+}
+
+.info--box > hr{
+  width: 471px;
+  margin: 18px 0 ;
+  opacity: 30%;
+  background-color: #F55A5A;
+} 
+
+.image{
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.about{
+  width: 326px;  
+  padding: 10px 0;
+}
+
+.location-box{
+  font-size: 13px;
+}
+
+.location-box > img{
+  margin-top: 3px;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+
+.location-box > div{
+  margin-right: 13px; 
+}
+
+.location-box >a{
+  color: gray;
+  font-size: 11px;
+}
+
+h1{
+  margin-top: 8px;
+  margin-bottom: 13px;
+}
+
+.date-of-travel{
+  width: 150px;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.desc{
+  font-size: 11px;
+  line-height: 16px;
+ 
 }
